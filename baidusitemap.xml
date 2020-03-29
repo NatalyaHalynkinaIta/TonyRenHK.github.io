@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://tonyrenhk.github.io/2020/01/06/2020-01-06-SFDC-Public-Site/</loc>
+    <lastmod>2020-03-29</lastmod>
+  </url>  <url>
     <loc>http://tonyrenhk.github.io/2020/03/20/2020-03-20-Salesforce-related-resource/</loc>
     <lastmod>2020-03-29</lastmod>
   </url>  <url>
@@ -13,10 +16,7 @@
     <loc>http://tonyrenhk.github.io/2020/02/02/2020-02-02-SFDC-CDC/</loc>
     <lastmod>2020-03-29</lastmod>
   </url>  <url>
-    <loc>http://tonyrenhk.github.io/2019/12/21/2019-12-21-Salesforce-free-org/</loc>
-    <lastmod>2020-03-29</lastmod>
-  </url>  <url>
-    <loc>http://tonyrenhk.github.io/2021/01/06/2020-01-06-SFDC-Public-Site/</loc>
+    <loc>http://tonyrenhk.github.io/2019/04/02/2019-04-02-LibraryNPM/</loc>
     <lastmod>2020-03-29</lastmod>
   </url>  <url>
     <loc>http://tonyrenhk.github.io/2020/02/20/2020-02-20-Salesforce-Sandbox-design/</loc>
@@ -25,10 +25,10 @@
     <loc>http://tonyrenhk.github.io/2019/03/13/2019-03-13-Community-Cloud/</loc>
     <lastmod>2020-03-29</lastmod>
   </url>  <url>
-    <loc>http://tonyrenhk.github.io/2019/04/02/2019-04-02-LibraryNPM/</loc>
+    <loc>http://tonyrenhk.github.io/2019/09/01/2019-09-01-Trailhead/</loc>
     <lastmod>2020-03-29</lastmod>
   </url>  <url>
-    <loc>http://tonyrenhk.github.io/2019/09/01/2019-09-01-Trailhead/</loc>
+    <loc>http://tonyrenhk.github.io/2019/09/12/2019-09-12-JsforceMetadata/</loc>
     <lastmod>2020-03-29</lastmod>
   </url>  <url>
     <loc>http://tonyrenhk.github.io/2020/01/15/2020-01-15-Salesforce-flow-Roll-Up-Summary/</loc>
@@ -43,7 +43,7 @@
     <loc>http://tonyrenhk.github.io/2020/03/16/2020-03-16-Sales-Cloud-Exam/</loc>
     <lastmod>2020-03-29</lastmod>
   </url>  <url>
-    <loc>http://tonyrenhk.github.io/2019/09/12/2019-09-12-JsforceMetadata/</loc>
+    <loc>http://tonyrenhk.github.io/2019/12/21/2019-12-21-Salesforce-free-org/</loc>
     <lastmod>2020-03-29</lastmod>
   </url>  <url>
     <loc>http://tonyrenhk.github.io/about/Temp.html</loc>
