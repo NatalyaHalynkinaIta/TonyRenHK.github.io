@@ -194,12 +194,7 @@
 
 
 
-
-
-
-
-
-
+<h2 id="Apex如何remove-乱七八糟符号"><a href="#Apex如何remove-乱七八糟符号" class="headerlink" title="Apex如何remove 乱七八糟符号"></a>Apex如何remove 乱七八糟符号</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">String strText &#x3D; &#39;Welcome - to! % $sale&amp;sforce \\ &#x2F;code # crack %&#39;;</span><br><span class="line">strText &#x3D; strText.replaceAll(&#39;[^a-zA-Z0-9\\s+]&#39;, &#39;&#39;);</span><br><span class="line">System.debug(&#39;strText &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&gt; &#39;+strText);</span><br></pre></td></tr></table></figure>
 
 <h2 id="Check-if-user-is-Frozen"><a href="#Check-if-user-is-Frozen" class="headerlink" title="Check if user is Frozen"></a>Check if user is Frozen</h2><p>Please find below SQL, so that you can query related user if needed </p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SELECT  UserId,IsFrozen ,IsPasswordLocked  FROM UserLogin WHERE   UserId &#x3D;&#39;XXXXXXXX&#39;</span><br></pre></td></tr></table></figure>
@@ -290,9 +285,9 @@
         </div>
 
         <section class='meta'>
-            <time class="time" itemprop="dateUpdated" datetime="2020-03-29T14:41:40+00:00" content="2020-03-29">
+            <time class="time" itemprop="dateUpdated" datetime="2020-03-30T15:03:10+00:00" content="2020-03-30">
                 <i class="fas fa-pen fa-fw" aria-hidden="true"></i>
-                本文最后更新于：2020-03-29
+                本文最后更新于：2020-03-30
             </time>
             
                 
@@ -569,7 +564,7 @@
             <div class='wrapper'><a class="s-toc rightBtn" title="固定到顶部" target="_blank" rel="external nofollow noopener noreferrer" href="javascript:void(0)"><i class="fas fa-thumbtack fa-fw"></i></a></div>
         </header>
         <div class='content pure'>
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Check-if-user-is-Frozen"><span class="toc-text">Check if user is Frozen</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#查询Sharing-rule-快速链接"><span class="toc-text">查询Sharing rule 快速链接</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#查询-Class-的Permission"><span class="toc-text">查询 Class 的Permission</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#复制A-user-permission-到-B-User"><span class="toc-text">复制A user permission 到 B User</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#如何检查数据的Access-Right？"><span class="toc-text">如何检查数据的Access Right？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#如何得到月尾的最后一天？"><span class="toc-text">如何得到月尾的最后一天？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#把string-改为-date"><span class="toc-text">把string 改为 date</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Scheduled-Job每15分钟跑一次"><span class="toc-text">Scheduled Job每15分钟跑一次</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#可编辑字段-二"><span class="toc-text">可编辑字段(二)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#常用代码注释模板"><span class="toc-text">常用代码注释模板</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#获得字段信息"><span class="toc-text">获得字段信息</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#获得某一个对象的字段类型"><span class="toc-text">获得某一个对象的字段类型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#SQL-–-gt-List–-gt-Map"><span class="toc-text">SQL –&gt;List–&gt; Map</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tell-the-Day-of-the-Week-of-a-Date"><span class="toc-text">Tell the Day of the Week of a Date</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Apex如何remove-乱七八糟符号"><span class="toc-text">Apex如何remove 乱七八糟符号</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Check-if-user-is-Frozen"><span class="toc-text">Check if user is Frozen</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#查询Sharing-rule-快速链接"><span class="toc-text">查询Sharing rule 快速链接</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#查询-Class-的Permission"><span class="toc-text">查询 Class 的Permission</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#复制A-user-permission-到-B-User"><span class="toc-text">复制A user permission 到 B User</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#如何检查数据的Access-Right？"><span class="toc-text">如何检查数据的Access Right？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#如何得到月尾的最后一天？"><span class="toc-text">如何得到月尾的最后一天？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#把string-改为-date"><span class="toc-text">把string 改为 date</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Scheduled-Job每15分钟跑一次"><span class="toc-text">Scheduled Job每15分钟跑一次</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#可编辑字段-二"><span class="toc-text">可编辑字段(二)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#常用代码注释模板"><span class="toc-text">常用代码注释模板</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#获得字段信息"><span class="toc-text">获得字段信息</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#获得某一个对象的字段类型"><span class="toc-text">获得某一个对象的字段类型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#SQL-–-gt-List–-gt-Map"><span class="toc-text">SQL –&gt;List–&gt; Map</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tell-the-Day-of-the-Week-of-a-Date"><span class="toc-text">Tell the Day of the Week of a Date</span></a></li></ol>
         </div>
     </section>
 
